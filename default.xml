@@ -1041,5 +1041,8 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
   <!-- END open-source projects -->
+  <!-- region digitalis -->
+  <include name="digitalis.xml" />
+  <!-- endregion -->
 
 </manifest>
