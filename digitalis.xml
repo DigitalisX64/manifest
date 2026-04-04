@@ -8,6 +8,7 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="github" />
   <project path="digitalis" name="digitalis" remote="github" >
     <linkfile src="CLAUDE.md" dest="CLAUDE.md" />
+    <linkfile src=".claude" dest=".claude" />
   </project>
   <project path="frameworks/libs/binary_translation" name="platform_frameworks_libs_binary_translation" remote="github" />
   <project path="sample/hellodigitalis" name="sample_hello_digitalis" remote="github" />
