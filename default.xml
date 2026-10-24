@@ -2,13 +2,13 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="android17-release"
            remote="aosp"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-latest-release"/>
+  <superproject name="platform/superproject" remote="aosp" revision="android17-release"/>
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- BEGIN open-source projects -->
@@ -1118,5 +1118,8 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
   <!-- END open-source projects -->
+  <!-- region digitalis -->
+  <include name="digitalis.xml" />
+  <!-- endregion -->
 
 </manifest>
